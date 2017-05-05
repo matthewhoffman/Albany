@@ -75,6 +75,8 @@ protected:
   double g; 
   double rho; 
   double rho_w;
+  Teuchos::ParameterList* physicalParametersList;
+  bool useGLP;
   Teuchos::ParameterList* stereographicMapList;
   bool useStereographicMap;
 
